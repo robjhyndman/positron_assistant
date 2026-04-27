@@ -177,6 +177,7 @@
       init: (self: none, body) => {
         set text(font: ("Fira Sans", "Liberation Sans"), size: fontsize)
         set par(justify: false, leading: 0.65em)
+        set block(above: 0.7em, below: 0.7em)
         set figure(placement: none)
         show raw: it => { set text(font: ("Hack", "DejaVu Sans Mono", "Noto Sans Mono", "Liberation Mono")); it }
         // ...existing code...
