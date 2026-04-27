@@ -4,6 +4,7 @@ author: Rob Hyndman
 format:
   presentation-typst:
     toc: false
+    slide-level: 2
     fig-width: 7.5
     fig-height: 3.5
 ---
@@ -20,12 +21,14 @@ format:
 
 ## Set up Positron
 
-### GitHub Copilot
+#### GitHub Copilot
 
 * Make sure you are logged into your GitHub account.
 * GitHub Copilot settings: <https://github.com/settings/copilot/features>
 
-### Anthropic Claude
+`#pause`{=typst}
+
+#### Anthropic Claude
 
 * Set up Claude as a model provider using an Anthropic API key: <https://platform.claude.com/>
 * `Ctrl-Shift-P`: "Positron Assistant: Configure Language Model Providers"
@@ -47,7 +50,7 @@ Try typing a function name or a comment describing what you want to do, and see 
 * **Agent**: Autonomously executes work including running code and modifying files
 * **Plan**: Creates detailed step-by-step plans before execution
 
-You will need a model. Default is GPT-5 mini (slower and less capable than a paid model).
+You will need a model. Default is Auto (slower and less capable than a paid API model).
 
 ## Pick model
 
