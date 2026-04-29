@@ -129,3 +129,15 @@ Download the `wrangle.R` script from <https://robjhyndman.com/files/wrangle.R>.
 * Select the body of the `wrangle()` function and ask: "What does the `flag` column in `result` represent? What statistical method is being used?"
 * Switch to the `Edit` agent and ask: "Add a roxygen2 documentation block to this function"
 * Switch to the `Agent` agent and ask "Write a testthat test that checks `wrangle()` correctly flags outliers in a known dataset."
+
+## A confusion of AI assistants
+
+* **Posit Assistant** is a new AI assistant available in the latest releases of RStudio and Positron.
+* **Posit Assistant** is intended to replace **Databot** (Positron-only), and **Positron Assistant**.
+* **Posit(ron) Assistant** can use session context. **Claude Code**, **Codex**, etc., can only use editor context.
+* **Positron Assistant** has built-in agents (Ask, Edit, Agent, Plan), and you can add your own.
+* **Posit Assistant** currently has a read-only Plan mode, and supports customization via Skills and MCP.
+* **Positron Assistant** can use many model providers if you have an API account. **Claude Code** can use an API, Max or Pro account.
+* Claude via Copilot has different capabilities/tools to Claude via Anthropic API, or via Claude Code.
+* **Posit Assistant** in RStudio costs $20/month and no BYOK.
+* **Positron Assistant**: free client + BYOK or GitHub Copilot subscription.
