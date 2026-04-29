@@ -1,8 +1,11 @@
 ---
 title: Positron Assistant
 author: Rob Hyndman
+date: 2026-04-30
 format:
   presentation-typst:
+    titlegraphic: bg-12.png
+    titlecolor: "c14b14"
     toc: false
     titlegraphic: bg-12.png
     titlecolor: "c14b14"
