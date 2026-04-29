@@ -4,6 +4,8 @@ author: Rob Hyndman
 format:
   presentation-typst:
     toc: false
+    titlegraphic: bg-12.png
+    titlecolor: "c14b14"
     slide-level: 2
     fig-width: 7.5
     fig-height: 3.5
